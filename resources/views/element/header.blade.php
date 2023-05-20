@@ -6,8 +6,8 @@
             <div class="top-inner clearfix">
                 <div class="left-column pull-left">
                     <ul class="info-list clearfix">
-                        <li><i class="fas fa-phone-square"></i><a href="tel:+12463330079">+1- (246) 333-0079</a></li>
-                        <li><i class="fas fa-envelope"></i><a href="mailto:needhelp@company.com">needhelp@company.com</a></li>
+                        <li><i class="fas fa-phone-square"></i><a href="tel:014597063">014597063,014583238</a></li>
+                        <li><i class="fas fa-envelope"></i><a href="mailto:arcticnepal@gmail.com">arcticnepal@gmail.com</a></li>
                     </ul>
                 </div>
                 <div class="right-column pull-right">
@@ -40,14 +40,19 @@
                                 <li class="{{request()->routeIs('home') ? 'current':''}} dropdown"><a href="{{route('home')}}">Home</a>
 
                                 </li>
-                                <li class=" dropdown"><a href="#">Pages</a>
+                                <li class=" dropdown"><a href="#">Study</a>
                                     <ul>
-                                        <li><a href="{{route('about')}}">About Us</a></li>
-                                        <li><a href="{{route('agents')}}">Our Agents</a></li>
-                                        <li><a href="{{route('agents-detail',"sdas")}}">Agents Details</a></li>
+                                        <li><a href="{{route('services.student-screening')}}">Student Screening</a></li>
+                                        <li><a href="{{route('services.university-application-assistance')}}">University Application Assistance</a></li>
+                                        <li><a href="{{route('services.documentation-guidance')}}">Document Guidance</a></li>
+                                        <li><a href="{{route('services.office-letter-confirmation')}}">Office Letter Confirmation</a></li>
+                                        <li><a href="{{route('services.counseling')}}">Counselling</a></li>
+                                        <li><a href="{{route('canada')}}">Canada</a></li>
+                                        <li><a href="{{route('intake')}}">Intake Process</a></li>
+                                        <li><a href="{{route('geo-lifestyle')}}">Geograpy And Lifestyle</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown"><a href="{{route('faq')}}">faq</a>
+                                <li class="dropdown"><a href="{{route('faq')}}">Faq</a>
                                     <ul>
                                         <li><a href="{{route('faq')}}">FAQ</a></li>
                                         {{-- <li><a href="coaching-details.html">Citizenship Test</a></li>
@@ -61,11 +66,14 @@
                                 <li class="dropdown"><a href="{{route('services.index')}}">Services</a>
                                     <ul>
                                         <li><a href="{{route('services.index')}}">Our Services</a></li>
-                                        <li><a href="{{route('services.student-screening')}}">Student Screening</a></li>
+                                        {{-- <li><a href="{{route('services.student-screening')}}">Student Screening</a></li>
                                         <li><a href="{{route('services.university-application-assistance')}}">University Application Assistance</a></li>
                                         <li><a href="{{route('services.documentation-guidance')}}">Document Guidance</a></li>
                                         <li><a href="{{route('services.office-letter-confirmation')}}">Office Letter Confirmation</a></li>
-                                        <li><a href="{{route('services.counseling')}}">Counselling</a></li>
+                                        <li><a href="{{route('services.counseling')}}">Counselling</a></li> --}}
+                                        <li><a href="{{route('services.counseling')}}">Student Counselling</a></li>
+                                        <li><a href="{{route('services.counseling')}}">Visa Application</a></li>
+                                        <li><a href="{{route('services.counseling')}}">Admission Process</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown"><a href="{{route('canada')}}">Country</a>
@@ -83,6 +91,13 @@
                                         <li><a href="new-zealand.html">New Zealand</a></li>
                                         <li><a href="dubai.html">Dubai</a></li>
                                         <li><a href="china.html">China</a></li> --}}
+                                    </ul>
+                                </li>
+                                <li class=" dropdown"><a href="{{route('about')}}">About Us</a>
+                                    <ul>
+                                        <li><a href="{{route('about')}}">About Us</a></li>
+                                        <li><a href="{{route('agents')}}">Our Teams</a></li>
+                                        {{-- <li><a href="{{route('agents-detail',"sdas")}}">Agents Details</a></li> --}}
                                     </ul>
                                 </li>
                                 <li class="dropdown"><a href="{{route('blog')}}">Blog</a>

@@ -38,33 +38,30 @@
 
 
         <!-- preloader -->
-        {{-- <div class="loader-wrap">
+        {{-- <div class="loader-wrap" id="proper_wrpa">
             <div class="preloader">
                 <div class="preloader-close">x</div>
                 <div id="handle-preloader" class="handle-preloader">
                     <div class="animation-preloader">
                         <div class="spinner"></div>
                         <div class="txt-loading">
-                            <span data-text-preloader="v" class="letters-loading">
-                                v
+                            <span data-text-preloader="A" class="letters-loading">
+                                A
                             </span>
-                            <span data-text-preloader="i" class="letters-loading">
-                                i
+                            <span data-text-preloader="R" class="letters-loading">
+                                R
                             </span>
-                            <span data-text-preloader="s" class="letters-loading">
-                                s
+                            <span data-text-preloader="C" class="letters-loading">
+                                C
                             </span>
-                            <span data-text-preloader="t" class="letters-loading">
-                                t
+                            <span data-text-preloader="T" class="letters-loading">
+                                T
                             </span>
-                            <span data-text-preloader="p" class="letters-loading">
-                                p
+                            <span data-text-preloader="I" class="letters-loading">
+                                I
                             </span>
-                            <span data-text-preloader="r" class="letters-loading">
-                                r
-                            </span>
-                            <span data-text-preloader="o" class="letters-loading">
-                                o
+                            <span data-text-preloader="C" class="letters-loading">
+                                C
                             </span>
                         </div>
                     </div>
