@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -29,6 +30,7 @@ Route::get('contactus', function () {
     return view('contact');
 })->name("contact");
 
+Route::post('contact', [ContactController::class, "sendContactMailToOrg"])->name('contact-post');
 
 Route::get("agents/{id}", function () {
     return view('agents-detail');

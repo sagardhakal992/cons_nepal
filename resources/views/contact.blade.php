@@ -28,16 +28,26 @@
                                 <h2 class="p_relative d_block lh_55 fw_exbold">Write a Message</h2>
                             </div>
                             <div class="form-inner">
-                                <form method="post" action="sendemail.php" id="contact-form" class="default-form">
+                                <form method="post" action="{{route('contact-post')}}" id="contact-form" class="default-form">
+                                    @csrf
                                     <div class="row clearfix">
                                         <div class="col-lg-6 col-md-6 col-sm-12 form-group mb_20">
-                                            <input type="text" name="username" placeholder="Your Name" required="">
+                                            <input type="text" name="name" placeholder="Your Name" required="">
+                                            @error('name')
+                                            {{$message}}
+                                            @enderror
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-12 form-group mb_20">
                                             <input type="email" name="email" placeholder="Email Address" required="">
+                                            @error('email')
+                                            {{$message}}
+                                            @enderror
                                         </div>
                                         <div class="col-lg-12 col-md-12 col-sm-12 form-group mb_20">
-                                            <textarea name="message" placeholder="Leave A Comment"></textarea>
+                                            <textarea name="description" placeholder="Leave A Comment"></textarea>
+                                            @error('description')
+                                            {{$message}}
+                                            @enderror
                                         </div>
                                         <div class="col-lg-12 col-md-12 col-sm-12 form-group message-btn mr-0">
                                             <button class="theme-btn btn-one" type="submit" name="submit-form"><span>Send A Message</span></button>
