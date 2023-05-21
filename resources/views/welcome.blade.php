@@ -435,7 +435,7 @@
 
 
         <!-- coaching-section -->
-        <section class="coaching-section p_relative sec-pad">
+        {{-- <section class="coaching-section p_relative sec-pad">
             <div class="outer-container p_relative">
                 <div class="sec-title p_relative d_block mb_50 centred">
                     <span class="p_relative d_block fs_14 lh_20 fw_sbold theme-color mb_7">how we can help</span>
@@ -504,7 +504,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
         <!-- coaching-section end -->
 
 
