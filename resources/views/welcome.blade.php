@@ -17,7 +17,7 @@
                     </div>
                 </div>
                 <div class="slide-item p_relative pt_190 pb_220">
-                    <div class="image-layer p_absolute" style="background-image:url(assets/images/backround/newfoundland-960x604.jpeg)"></div>
+                    <div class="image-layer p_absolute" style="background-image:url({{asset('assets/images/toronto-city-1024x683.jpeg')}})"></div>
                     <div class="auto-container">
                         <div class="content-box p_relative d_block z_5">
                             <h3 class="p_relative d_iblock fw_normal fs_24 lh_30 color-white pb_3 mb_25">Easy & Fast Visa Process</h3>
@@ -53,9 +53,9 @@
                         <div class="feature-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div class="inner-box p_relative d_block b_radius_10 pl_150 pt_35 pr_30 pb_30">
                                 <div class="icon-box p_absolute centred fs_65 color-white"><i class="flaticon-passport"></i></div>
-                                <h4 class="p_relative d_block fs_20 lh_30 mb_18"><a href="index.html" class="d_iblock black-color hov-color">Apply for Online Visa</a></h4>
-                                <p class="mb_8 lh_30">Lorem ipsum is dolo sit amet, conse ctetur.</p>
-                                <div class="link"><a href="index.html" class="p_relative d_iblock fs_14 fw_sbold black-color hov-color pl_12"><i class="fa fa-angle-right"></i>Read More</a></div>
+                                <h4 class="p_relative d_block fs_20 lh_30 mb_18"><a href="{{route('study')}}#apply" class="d_iblock black-color hov-color">How to Apply for a Canada Student Visa?</a></h4>
+                                <p class="mb_8 lh_30">Prepare for the exam: You can start preparing for the English proficiency test you are attempting.</p>
+                                <div class="link"><a href="{{route('study')}}#apply" class="p_relative d_iblock fs_14 fw_sbold black-color hov-color pl_12"><i class="fa fa-angle-right"></i>Read More</a></div>
                             </div>
                         </div>
                     </div>
@@ -63,9 +63,9 @@
                         <div class="feature-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                             <div class="inner-box p_relative d_block b_radius_10 pl_150 pt_35 pr_30 pb_30">
                                 <div class="icon-box p_absolute centred fs_65 color-white"><i class="flaticon-passport-1"></i></div>
-                                <h4 class="p_relative d_block fs_20 lh_30 mb_18"><a href="index.html" class="d_iblock black-color hov-color">Immigration Program</a></h4>
-                                <p class="mb_8 lh_30">Lorem ipsum is dolo sit amet, conse ctetur.</p>
-                                <div class="link"><a href="index.html" class="p_relative d_iblock fs_14 fw_sbold black-color hov-color pl_12"><i class="fa fa-angle-right"></i>Read More</a></div>
+                                <h4 class="p_relative d_block fs_20 lh_30 mb_18"><a href="{{route('study')}}#stay-back" class="d_iblock black-color hov-color">Stay Back in Canada and Post-Graduation Work Permit </a></h4>
+                                <p class="mb_8 lh_30">If you pursue a two-year program, you can stay back for up to three years after your..</p>
+                                <div class="link"><a href="{{route('study')}}#stay-back" class="p_relative d_iblock fs_14 fw_sbold black-color hov-color pl_12"><i class="fa fa-angle-right"></i>Read More</a></div>
                             </div>
                         </div>
                     </div>
@@ -73,9 +73,9 @@
                         <div class="feature-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box p_relative d_block b_radius_10 pl_150 pt_35 pr_30 pb_30">
                                 <div class="icon-box p_absolute centred fs_65 color-white"><i class="flaticon-file"></i></div>
-                                <h4 class="p_relative d_block fs_20 lh_30 mb_18"><a href="index.html" class="d_iblock black-color hov-color">Documents Required</a></h4>
-                                <p class="mb_8 lh_30">Lorem ipsum is dolo sit amet, conse ctetur.</p>
-                                <div class="link"><a href="index.html" class="p_relative d_iblock fs_14 fw_sbold black-color hov-color pl_12"><i class="fa fa-angle-right"></i>Read More</a></div>
+                                <h4 class="p_relative d_block fs_20 lh_30 mb_18"><a href="{{route('study')}}#document-required" class="d_iblock black-color hov-color">Documents Required for Canada</a></h4>
+                                <p class="mb_8 lh_30">Acceptance letter from a recognised DLI: An acceptance letter from a recognised DLI is one of the most ..</p>
+                                <div class="link"><a href="{{route('study')}}#document-required" class="p_relative d_iblock fs_14 fw_sbold black-color hov-color pl_12"><i class="fa fa-angle-right"></i>Read More</a></div>
                             </div>
                         </div>
                     </div>
@@ -95,19 +95,19 @@
                             <div class="content-box p_relative d_block mr_70 pb_90">
                                 <div class="sec-title p_relative d_block mb_40">
                                     <span class="p_relative d_block fs_14 lh_20 fw_sbold theme-color mb_7">Get to know us</span>
-                                    <h2 class="p_relative d_block lh_55 fw_exbold">Immigration Service From Expert Agent</h2>
+                                    <h2 class="p_relative d_block lh_55 fw_exbold">Immigration Service From Expert Consultant</h2>
                                 </div>
                                 <div class="text p_relative d_block mb_30">
-                                    <h5 class="fs_18 fw_medium theme-color mb_35">Aenean sed sapien venenatis, blandit nulla in, lacinia risus. Suspendisse potenti.</h5>
-                                    <p>There are many variations of passages of psum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.</p>
+                                    <h5 class="fs_18 fw_medium theme-color mb_35">Arctic Educational Consultancy is dedicated to providing Nepalese students with the best opportunities to study in Canada. </h5>
+                                    <p>Arctic Educational Consultancy, Kathmandu is a branch of Arctic Immigration Inc, Canada, with its head office located in Brampton, Ontario, Canada. The company is authorized by both the Canadian and Nepalese governments and run by a regulated Canadian immigration consultant (RCIC).</p>
                                 </div>
                                 <ul class="list-style-one clearfix p_relative d_block">
-                                    <li class="p_relative d_iblock fs_16 lh_25 fw_sbold black-color mb_15 pull-left">95% success rates</li>
+                                    <li class="p_relative d_iblock fs_16 lh_25 fw_sbold black-color mb_15 pull-left">Student Screening</li>
                                     <li class="p_relative d_iblock fs_16 lh_25 fw_sbold black-color mb_15 pull-left">Free consultation</li>
                                     <li class="p_relative d_iblock fs_16 lh_25 fw_sbold black-color mb_15 pull-left">Easy & fast process</li>
-                                    <li class="p_relative d_iblock fs_16 lh_25 fw_sbold black-color mb_15 pull-left">Expert immigration agents</li>
+                                    <li class="p_relative d_iblock fs_16 lh_25 fw_sbold black-color mb_15 pull-left">Documentation Guidance</li>
                                     <li class="p_relative d_iblock fs_16 lh_25 fw_sbold black-color mb_15 pull-left">Affordable fees</li>
-                                    <li class="p_relative d_iblock fs_16 lh_25 fw_sbold black-color mb_15 pull-left">Over 30 years experience</li>
+                                    <li class="p_relative d_iblock fs_16 lh_25 fw_sbold black-color mb_15 pull-left">Counseling</li>
                                 </ul>
                             </div>
                         </div>
@@ -115,11 +115,11 @@
                     <div class="col-lg-6 col-md-12 col-sm-12 image-column">
                         <div class="image_block_1">
                             <div class="image-box p_relative d_block pl_70">
-                                <figure class="image p_relative d_block image-1 b_radius_10 tran_5"><img src="assets/images/resource/about-1.jpg" alt=""></figure>
-                                <figure class="image image-2 p_absolute r_120 b_radius_10 wow slideInRight animated" data-wow-delay="00ms" data-wow-duration="1500ms"><img src="assets/images/resource/about-2.jpg" alt=""></figure>
+                                <figure class="image p_relative d_block image-1 b_radius_10 tran_5"><img src="{{asset('assets/images/team/ram.png')}}" alt=""></figure>
+                                {{-- <figure class="image image-2 p_absolute r_120 b_radius_10 wow slideInRight animated" data-wow-delay="00ms" data-wow-duration="1500ms"><img src="{{asset('assets/images/team/ram.png')}}" alt=""></figure> --}}
                                 <div class="text p_absolute t_160 b_radius_10 b_shadow_7 bg-white pt_35 pr_40 pb_35 pl_110">
                                     <div class="icon-box p_absolute l_30 t_30 fs_65 theme-color"><i class="flaticon-customer-service"></i></div>
-                                    <h5 class="d_block fs_18">Meet Our Expert Agents</h5>
+                                    <h5 class="d_block fs_18">Meet Our Expert Consultants</h5>
                                 </div>
                             </div>
                         </div>

@@ -97,7 +97,7 @@
                                         <li>You must be fully vaccinated with COVISHIELD/AstraZeneca, Bharath Biotech Covaxin etc.</li>
                                      </ul>
                                 </div>
-                                <div id="#document-required" class="content-box" class="pt-4">
+                                <div id="document-required" class="content-box" class="pt-4">
                                     <h3>Documents Required for Canada Student Visa</h3>
                                     <p>You must submit a few documents to apply for a Canadian student visa. It is important to apply for the visa early so that it gets approved on time. The documents required for a Canada student visa are explained below.</p>
                                     <ul class="list clearfix">
