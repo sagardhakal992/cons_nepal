@@ -62,18 +62,20 @@
                             <div class="support-box p_relative d_block theme-color-bg pl_100 pt_40 pr_30 pb_40">
                                 <div class="icon-box p_absolute l_50 t_50 fs_35 color-white"><i class="flaticon-phone-call"></i></div>
                                 <span class="d_block fs_14 lh_20 fw_medium color-white">Call now</span>
-                                <h5 class="d_block fs_18 lh_30 fw_medium color-white"><a href="tel:12463330079" class="d_iblock color-white">+1- (246) 333-0079</a></h5>
+                                <h5 class="d_block fs_18 lh_30 fw_medium color-white"><a href="tel:014597063" class="d_iblock color-white">014597063,014583238</a></h5>
                             </div>
                             <div class="inner p_relative d_block pt_45 pr_30 pb_50 pl_50">
                                 <ul class="info-list clearfix p_relative d_block mb_30">
-                                    <li><a href="mailto:needhelp@company.com">needhelp@company.com</a></li>
-                                    <li>60 Broklyn Golden Street, 88 New York, United States of America</li>
+                                    <li><a href="mailto:arcticnepal@gmail.com">arcticnepal@gmail.com</a></li>
+                                    <li>Battisputali,kathmandu 44600,Nepal</li>
                                 </ul>
                                 <ul class="social-links clearfix">
-                                    <li><a href="contact.html"><i class="fab fa-facebook-f"></i></a></li>
+                                    {{-- <li><a href="contact.html"><i class="fab fa-facebook-f"></i></a></li>
                                     <li><a href="contact.html"><i class="fab fa-twitter"></i></a></li>
                                     <li><a href="contact.html"><i class="fab fa-instagram"></i></a></li>
-                                    <li><a href="contact.html"><i class="fab fa-dribbble"></i></a></li>
+                                    <li><a href="contact.html"><i class="fab fa-dribbble"></i></a></li> --}}
+                                    <li><a target="_blank" href="https://www.facebook.com/arcticimmigration/"><i class="fab fab fa-facebook-f"></i></a></li>
+                                    <li><a target="_blank" href="https://www.youtube.com/@ArcticImmigration"><i class="fab fab fa-youtube"></i></a></li>
                                 </ul>
                             </div>
                         </div>
