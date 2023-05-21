@@ -1,4 +1,4 @@
- 
+
 /* Css For Vistpro */
 
 /************ TABLE OF CONTENTS ***************
@@ -64,7 +64,7 @@
   right: 0px;
   background: #1b182f;
   z-index: 1;
-  opacity: 0.8;
+  opacity: 0;
 }
 
 .banner-carousel .slide-item .image-layer{
@@ -163,7 +163,7 @@
 }
 
 .banner-carousel .active .content-box .btn-box{
-  opacity: 1;
+  opacity: 0;
   -webkit-transform: translateY(0);
   -moz-transform: translateY(0);
   -ms-transform: translateY(0);
@@ -1717,7 +1717,7 @@
   -ms-transition:all 1500ms ease;
   -o-transition:all 1500ms ease;
   -moz-transition:all 1500ms ease;
-  transition:all 1500ms ease; 
+  transition:all 1500ms ease;
 }
 
 .progress-box p{
@@ -1789,7 +1789,7 @@
 
 .coaching-sidebar .category-list li a.current:after,
 .coaching-sidebar .category-list li a:hover:after{
-  
+
 }
 
 .coaching-sidebar .download-widget li .icon-box{
@@ -1901,7 +1901,7 @@
 }
 
 .accordion-box .block .acc-content.current{
-  display:block;  
+  display:block;
 }
 
 /** contact-section **/

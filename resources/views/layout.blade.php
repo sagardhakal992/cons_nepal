@@ -27,7 +27,17 @@
 <link href="{{ asset('assets/css/responsive.css') }}" rel="stylesheet">
 <link href="{{asset('assets/css/service.css')}}" rel="stylesheet">
 <link href="{{asset('assets/css/blog.css')}}" rel="stylesheet">
-
+<style>
+    tr,td,th{
+        border: 1px solid gray;
+        text-align: center
+    }
+    td{
+        width: 400px;
+        padding: 5px;
+        text-align: center
+    }
+</style>
 </head>
 
 

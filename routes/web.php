@@ -47,6 +47,9 @@ Route::group(["prefix" => "services"], function () {
     Route::view("office-letter-confirmation","services.office-letter-confirmation")->name('services.office-letter-confirmation');
     Route::view("counseling","services.counseling")->name('services.counseling');
 });
+Route::group(['prefix' => "study"], function () {
+    Route::view('/', 'study')->name('study');
+});
 Route::view("faq/questions", "faq")->name("faq");
 Route::view("country/canada", "canada")->name('canada');
 Route::view('visa-launch-process', "visa-launch-process")->name("visa-launch-process");

@@ -12,10 +12,10 @@
                 </div>
                 <div class="right-column pull-right">
                     <ul class="social-links clearfix">
-                        <li><a href="{{route('home')}}"><i class="fab fab fa-twitter"></i></a></li>
-                        <li><a href="{{route('home')}}"><i class="fab fab fa-facebook-f"></i></a></li>
-                        <li><a href="{{route('home')}}"><i class="fab fab fa-dribbble"></i></a></li>
-                        <li><a href="{{route('home')}}"><i class="fab fab fa-instagram"></i></a></li>
+                        {{-- <li><a href="{{route('home')}}"><i class="fab fab fa-twitter"></i></a></li> --}}
+                        <li><a target="_blank" href="https://www.facebook.com/arcticimmigration/"><i class="fab fab fa-facebook-f"></i></a></li>
+                        <li><a target="_blank" href="https://www.youtube.com/@ArcticImmigration"><i class="fab fab fa-youtube"></i></a></li>
+                        {{-- <li><a href="{{route('home')}}"><i class="fab fab fa-instagram"></i></a></li> --}}
                     </ul>
                     <div class="btn-box"><a href="{{route('home')}}">Book Appointment</a></div>
                 </div>
@@ -40,16 +40,24 @@
                                 <li class="{{request()->routeIs('home') ? 'current':''}} dropdown"><a href="{{route('home')}}">Home</a>
 
                                 </li>
-                                <li class=" dropdown"><a href="#">Study</a>
+                                <li class=" dropdown"><a href="{{route('study')}}">Study</a>
                                     <ul>
-                                        <li><a href="{{route('services.student-screening')}}">Student Screening</a></li>
+                                        {{-- <li><a href="{{route('services.student-screening')}}">Student Screening</a></li>
                                         <li><a href="{{route('services.university-application-assistance')}}">University Application Assistance</a></li>
                                         <li><a href="{{route('services.documentation-guidance')}}">Document Guidance</a></li>
                                         <li><a href="{{route('services.office-letter-confirmation')}}">Office Letter Confirmation</a></li>
-                                        <li><a href="{{route('services.counseling')}}">Counselling</a></li>
-                                        <li><a href="{{route('canada')}}">Canada</a></li>
-                                        <li><a href="{{route('intake')}}">Intake Process</a></li>
-                                        <li><a href="{{route('geo-lifestyle')}}">Geograpy And Lifestyle</a></li>
+                                        <li><a href="{{route('services.counseling')}}">Counselling</a></li> --}}
+                                        <li><a href="{{route('study')}}#type-of-canada-student-visa">Types of Canada Student Visa</a></li>
+                                        <li><a href="{{route('study')}}#study-permit">What is a Canada Study Permit? </a></li>
+                                        <li><a href="{{route('study')}}#canada-student-visa">Canada Student Visa Fee</a></li>
+                                        <li><a href="{{route('study')}}#visa-requirements">Canada Student Visa Requirement </a></li>
+                                        <li><a href="{{route('study')}}#document-required">Documents Required for Canada Student Visa </a></li>
+                                        <li><a href="{{route('study')}}#apply">How to Apply for a Canada Student Visa? </a></li>
+                                        <li><a href="{{route('study')}}#stay-back">Stay Back in Canada and Post-Graduation Work Permit (PGWP) </a></li>
+                                        <li><a href="{{route('study')}}#pr">PR in Canada</a></li>
+
+                                        {{-- <li><a href="{{route('intake')}}">Intake Process</a></li>
+                                        <li><a href="{{route('geo-lifestyle')}}">Geograpy And Lifestyle</a></li> --}}
                                     </ul>
                                 </li>
                                 <li class="dropdown"><a href="{{route('faq')}}">Faq</a>
@@ -66,11 +74,11 @@
                                 <li class="dropdown"><a href="{{route('services.index')}}">Services</a>
                                     <ul>
                                         <li><a href="{{route('services.index')}}">Our Services</a></li>
-                                        {{-- <li><a href="{{route('services.student-screening')}}">Student Screening</a></li>
+                                        <li><a href="{{route('services.student-screening')}}">Student Screening</a></li>
                                         <li><a href="{{route('services.university-application-assistance')}}">University Application Assistance</a></li>
                                         <li><a href="{{route('services.documentation-guidance')}}">Document Guidance</a></li>
                                         <li><a href="{{route('services.office-letter-confirmation')}}">Office Letter Confirmation</a></li>
-                                        <li><a href="{{route('services.counseling')}}">Counselling</a></li> --}}
+                                        {{-- <li><a href="{{route('services.counseling')}}">Counselling</a></li> --}}
                                         <li><a href="{{route('services.counseling')}}">Student Counselling</a></li>
                                         <li><a href="{{route('services.counseling')}}">Visa Application</a></li>
                                         <li><a href="{{route('services.counseling')}}">Admission Process</a></li>
@@ -113,17 +121,8 @@
                     <div class="nav-right clearfix">
                         <div class="search-box-outer">
                             <div class="dropdown">
-                                <button class="search-box-btn" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="flaticon-magnifying-glass"></i></button>
-                                <div class="dropdown-menu search-panel" aria-labelledby="dropdownMenu3">
-                                    <div class="form-container">
-                                        <form method="post" action="blog.html">
-                                            <div class="form-group">
-                                                <input type="search" name="search-field" value="" placeholder="Search...." required="">
-                                                <button type="submit" class="search-btn"><span class="fas fa-search"></span></button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
+                                <a style="color:white;font-weight:500;padding:10px 20px; background:#FF6D6C;border-radius:5px" target="_blank" href="https://www.arcticimmigration.com/">Our Head Office</a>
+
                             </div>
                         </div>
                     </div>
@@ -146,17 +145,7 @@
                     <div class="nav-right clearfix">
                         <div class="search-box-outer">
                             <div class="dropdown">
-                                <button class="search-box-btn" type="button" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="flaticon-magnifying-glass"></i></button>
-                                <div class="dropdown-menu search-panel" aria-labelledby="dropdownMenu4">
-                                    <div class="form-container">
-                                        <form method="post" action="blog.html">
-                                            <div class="form-group">
-                                                <input type="search" name="search-field" value="" placeholder="Search...." required="">
-                                                <button type="submit" class="search-btn"><span class="fas fa-search"></span></button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
+                                <a style="color:white;font-weight:500;padding:10px 20px; background:#FF6D6C;border-radius:5px" target="_blank" href="https://www.arcticimmigration.com/">Our Head Office</a>
                             </div>
                         </div>
                     </div>
