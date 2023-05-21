@@ -147,7 +147,7 @@
                                     <figure class="image-box p_relative d_block"><img src="assets/images/resource/service-1.jpg" alt=""></figure>
                                     <div class="lower-content p_relative d_block pt_25 pr_30 pb_30 pl_40">
                                         <div class="icon-box p_absolute r_20 w_100 h_100 lh_110 centred fs_65 bg-white theme-color b_radius_10 tran_5 z_2"><i class="flaticon-family"></i></div>
-                                        <h3 class="d_block fs_24 lh_30 mb_25"><a href="service-details-4.html" class="d_iblock black-color hov-color">Family Visa</a></h3>
+                                        <h3 class="d_block fs_24 lh_30 mb_25"><a href="service-details-4.html" class="d_iblock black-color hov-color">Student Visa</a></h3>
                                         <p class="mb_15">Sed quia magni dolores eos qui ratione voluptatem sequi nesciunt eque porro.</p>
                                         <div class="link"><a href="service-details-4.html" class="p_relative d_iblock fs_14 fw_sbold black-color hov-color pl_12"><i class="fa fa-angle-right"></i>Read More</a></div>
                                     </div>
@@ -173,7 +173,7 @@
                                     <figure class="image-box p_relative d_block"><img src="assets/images/resource/service-3.jpg" alt=""></figure>
                                     <div class="lower-content p_relative d_block pt_25 pr_30 pb_30 pl_40">
                                         <div class="icon-box p_absolute r_20 w_100 h_100 lh_110 centred fs_65 bg-white theme-color b_radius_10 tran_5 z_2"><i class="flaticon-travel"></i></div>
-                                        <h3 class="d_block fs_24 lh_30 mb_25"><a href="service-details-5.html" class="d_iblock black-color hov-color">Tourist Visa</a></h3>
+                                        <h3 class="d_block fs_24 lh_30 mb_25"><a href="service-details-5.html" class="d_iblock black-color hov-color">Student Visa</a></h3>
                                         <p class="mb_15">Sed quia magni dolores eos qui ratione voluptatem sequi nesciunt eque porro.</p>
                                         <div class="link"><a href="service-details-5.html" class="p_relative d_iblock fs_14 fw_sbold black-color hov-color pl_12"><i class="fa fa-angle-right"></i>Read More</a></div>
                                     </div>
@@ -194,95 +194,40 @@
                 <div class="row clearfix">
                     <div class="col-lg-5 col-md-12 col-sm-12 title-column">
                         <div class="sec-title p_relative d_block mb_40 light mr_60">
-                            <span class="p_relative d_block fs_14 lh_20 fw_sbold theme-color mb_7">choose country</span>
-                            <h2 class="p_relative d_block lh_55 fw_exbold color-white">Apply for a Quick Immigration for a Country</h2>
+                            {{-- <span class="p_relative d_block fs_14 lh_20 fw_sbold theme-color mb_7">choose country</span> --}}
+                            <h2 class="p_relative d_block lh_55 fw_exbold color-white">Apply for a Quick Immigration for a Canada</h2>
                         </div>
                     </div>
                     <div class="col-lg-7 col-md-12 col-sm-12 inner-column">
                         <div class="inner-content centred">
                             <div class="four-item-carousel owl-carousel owl-theme owl-nav-none">
+                                {{-- can be looped if multiple country is available --}}
                                 <div class="single-item p_relative d_block">
-                                    <figure class="image-box p_relative d_block b_radius_10"><img src="assets/images/resource/place-1.jpg" alt=""></figure>
-                                    <div class="flag p_absolute t_40"><img src="assets/images/icons/flag-1.png" alt=""></div>
+                                    <figure class="image-box p_relative d_block b_radius_10"><img src="{{asset('assets/images/img1.jpg')}}" alt=""></figure>
+                                    <div class="flag p_absolute t_40"><img src="{{asset('assets/images/canada.png')}}" alt=""></div>
                                     <div class="text p_absolute pb_30 l_0 b_0 r_0 z_1">
-                                        <h3 class="d_block fs_24 lh_30"><a href="australia.html" class="color-white hov-color">Australia</a></h3>
+                                        <h3 class="d_block fs_24 lh_30"><a href="{{route('canada')}}" class="color-white hov-color">Canada</a></h3>
                                     </div>
                                 </div>
                                 <div class="single-item p_relative d_block">
-                                    <figure class="image-box p_relative d_block b_radius_10"><img src="assets/images/resource/place-2.jpg" alt=""></figure>
-                                    <div class="flag p_absolute t_40"><img src="assets/images/icons/flag-2.png" alt=""></div>
+                                    <figure class="image-box p_relative d_block b_radius_10"><img src="{{asset('assets/images/tonoto.jpg')}}" alt=""></figure>
+                                    <div class="flag p_absolute t_40"><img src="{{asset('assets/images/canada.png')}}" alt=""></div>
                                     <div class="text p_absolute pb_30 l_0 b_0 r_0 z_1">
-                                        <h3 class="d_block fs_24 lh_30"><a href="united-state.html" class="color-white hov-color">United States</a></h3>
+                                        <h3 class="d_block fs_24 lh_30"><a href="{{route('canada')}}" class="color-white hov-color"> Tornoto City</a></h3>
                                     </div>
                                 </div>
                                 <div class="single-item p_relative d_block">
-                                    <figure class="image-box p_relative d_block b_radius_10"><img src="assets/images/resource/place-3.jpg" alt=""></figure>
-                                    <div class="flag p_absolute t_40"><img src="assets/images/icons/flag-3.png" alt=""></div>
+                                    <figure class="image-box p_relative d_block b_radius_10"><img src="{{asset('assets/images/vancouver.jpg')}}" alt=""></figure>
+                                    <div class="flag p_absolute t_40"><img src="{{asset('assets/images/canada.png')}}" alt=""></div>
                                     <div class="text p_absolute pb_30 l_0 b_0 r_0 z_1">
-                                        <h3 class="d_block fs_24 lh_30"><a href="dubai.html" class="color-white hov-color">Dubai</a></h3>
+                                        <h3 class="d_block fs_24 lh_30"><a href="{{route('canada')}}" class="color-white hov-color"> Vancouver</a></h3>
                                     </div>
                                 </div>
                                 <div class="single-item p_relative d_block">
-                                    <figure class="image-box p_relative d_block b_radius_10"><img src="assets/images/resource/place-4.jpg" alt=""></figure>
-                                    <div class="flag p_absolute t_40"><img src="assets/images/icons/flag-4.png" alt=""></div>
+                                    <figure class="image-box p_relative d_block b_radius_10"><img src="{{asset('assets/images/quebec.jpg')}}" alt=""></figure>
+                                    <div class="flag p_absolute t_40"><img src="{{asset('assets/images/canada.png')}}" alt=""></div>
                                     <div class="text p_absolute pb_30 l_0 b_0 r_0 z_1">
-                                        <h3 class="d_block fs_24 lh_30"><a href="united-kingdom.html" class="color-white hov-color">United Kingdom</a></h3>
-                                    </div>
-                                </div>
-                                <div class="single-item p_relative d_block">
-                                    <figure class="image-box p_relative d_block b_radius_10"><img src="assets/images/resource/place-1.jpg" alt=""></figure>
-                                    <div class="flag p_absolute t_40"><img src="assets/images/icons/flag-1.png" alt=""></div>
-                                    <div class="text p_absolute pb_30 l_0 b_0 r_0 z_1">
-                                        <h3 class="d_block fs_24 lh_30"><a href="australia.html" class="color-white hov-color">Australia</a></h3>
-                                    </div>
-                                </div>
-                                <div class="single-item p_relative d_block">
-                                    <figure class="image-box p_relative d_block b_radius_10"><img src="assets/images/resource/place-2.jpg" alt=""></figure>
-                                    <div class="flag p_absolute t_40"><img src="assets/images/icons/flag-2.png" alt=""></div>
-                                    <div class="text p_absolute pb_30 l_0 b_0 r_0 z_1">
-                                        <h3 class="d_block fs_24 lh_30"><a href="united-state.html" class="color-white hov-color">United States</a></h3>
-                                    </div>
-                                </div>
-                                <div class="single-item p_relative d_block">
-                                    <figure class="image-box p_relative d_block b_radius_10"><img src="assets/images/resource/place-3.jpg" alt=""></figure>
-                                    <div class="flag p_absolute t_40"><img src="assets/images/icons/flag-3.png" alt=""></div>
-                                    <div class="text p_absolute pb_30 l_0 b_0 r_0 z_1">
-                                        <h3 class="d_block fs_24 lh_30"><a href="dubai.html" class="color-white hov-color">Dubai</a></h3>
-                                    </div>
-                                </div>
-                                <div class="single-item p_relative d_block">
-                                    <figure class="image-box p_relative d_block b_radius_10"><img src="assets/images/resource/place-4.jpg" alt=""></figure>
-                                    <div class="flag p_absolute t_40"><img src="assets/images/icons/flag-4.png" alt=""></div>
-                                    <div class="text p_absolute pb_30 l_0 b_0 r_0 z_1">
-                                        <h3 class="d_block fs_24 lh_30"><a href="united-kingdom.html" class="color-white hov-color">United Kingdom</a></h3>
-                                    </div>
-                                </div>
-                                <div class="single-item p_relative d_block">
-                                    <figure class="image-box p_relative d_block b_radius_10"><img src="assets/images/resource/place-1.jpg" alt=""></figure>
-                                    <div class="flag p_absolute t_40"><img src="assets/images/icons/flag-1.png" alt=""></div>
-                                    <div class="text p_absolute pb_30 l_0 b_0 r_0 z_1">
-                                        <h3 class="d_block fs_24 lh_30"><a href="australia.html" class="color-white hov-color">Australia</a></h3>
-                                    </div>
-                                </div>
-                                <div class="single-item p_relative d_block">
-                                    <figure class="image-box p_relative d_block b_radius_10"><img src="assets/images/resource/place-2.jpg" alt=""></figure>
-                                    <div class="flag p_absolute t_40"><img src="assets/images/icons/flag-2.png" alt=""></div>
-                                    <div class="text p_absolute pb_30 l_0 b_0 r_0 z_1">
-                                        <h3 class="d_block fs_24 lh_30"><a href="united-state.html" class="color-white hov-color">United States</a></h3>
-                                    </div>
-                                </div>
-                                <div class="single-item p_relative d_block">
-                                    <figure class="image-box p_relative d_block b_radius_10"><img src="assets/images/resource/place-3.jpg" alt=""></figure>
-                                    <div class="flag p_absolute t_40"><img src="assets/images/icons/flag-3.png" alt=""></div>
-                                    <div class="text p_absolute pb_30 l_0 b_0 r_0 z_1">
-                                        <h3 class="d_block fs_24 lh_30"><a href="dubai.html" class="color-white hov-color">Dubai</a></h3>
-                                    </div>
-                                </div>
-                                <div class="single-item p_relative d_block">
-                                    <figure class="image-box p_relative d_block b_radius_10"><img src="assets/images/resource/place-4.jpg" alt=""></figure>
-                                    <div class="flag p_absolute t_40"><img src="assets/images/icons/flag-4.png" alt=""></div>
-                                    <div class="text p_absolute pb_30 l_0 b_0 r_0 z_1">
-                                        <h3 class="d_block fs_24 lh_30"><a href="united-kingdom.html" class="color-white hov-color">United Kingdom</a></h3>
+                                        <h3 class="d_block fs_24 lh_30"><a href="{{route('canada')}}" class="color-white hov-color">Quebec</a></h3>
                                     </div>
                                 </div>
                             </div>
