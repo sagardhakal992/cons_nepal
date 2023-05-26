@@ -25,7 +25,7 @@
         <div class="header-lower">
             <div class="outer-box clearfix">
                 <div class="logo-box">
-                    <figure class="logo"><a href="{{route('home')}}"><img src="{{asset('assets/images/logo.png')}}" alt=""></a></figure>
+                    <figure class="logo"><a href="{{route('home')}}"><img src="{{asset('assets/images/logo-artic.jpg')}}" alt=""></a></figure>
                 </div>
                 <div class="menu-area clearfix">
                     <!--Mobile Navigation Toggler-->
@@ -60,7 +60,7 @@
                                         <li><a href="{{route('geo-lifestyle')}}">Geograpy And Lifestyle</a></li> --}}
                                     </ul>
                                 </li>
-                                <li class="dropdown"><a href="{{route('faq')}}">Faq</a>
+                                <li class="dropdown"><a href="{{route('faq')}}">FAQ</a>
                                     <ul>
                                         <li><a href="{{route('faq')}}">FAQ</a></li>
                                         {{-- <li><a href="coaching-details.html">Citizenship Test</a></li>
@@ -136,7 +136,7 @@
         <div class="auto-container">
             <div class="outer-box clearfix">
                 <div class="logo-box pull-left">
-                    <figure class="logo"><a href="{{route('home')}}"><img src="{{asset('assets/images/logo.png')}}" alt=""></a></figure>
+                    <figure class="logo"><a href="{{route('home')}}"><img src="{{asset('assets/images/logo-artic.jpg')}}" alt=""></a></figure>
                 </div>
                 <div class="menu-area clearfix pull-right">
                     <nav class="main-menu clearfix">
