@@ -31,6 +31,7 @@ Route::get('contactus', function () {
 })->name("contact");
 
 Route::post('contact', [ContactController::class, "sendContactMailToOrg"])->name('contact-post');
+Route::post('booking', [ContactController::class, "sendBookingTime"])->name('sendBookingTime');
 
 Route::get("agents/{id}", function () {
     return view('agents-detail');

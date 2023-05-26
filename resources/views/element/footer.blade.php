@@ -27,7 +27,7 @@
                             <h4>About</h4>
                         </div>
                         <div class="widget-content">
-                            <p>Arctic Educational Consultancy, Kathmandu is a branch of Arctic Immigration Inc, Canada, with its head office located in Brampton, Ontario, Canada. </p>
+                            <p>Arctic Educational Consultancy, Kathmandu, is a branch of Arctic Immigration Inc, Canada, with its head office located in Brampton, Ontario, Canada. </p>
                             <ul class="social-links clearfix">
                                 {{-- <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
                                 <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
@@ -35,6 +35,8 @@
                                 <li><a href="index.html"><i class="fab fa-instagram"></i></a></li> --}}
                                 <li><a target="_blank" href="https://www.facebook.com/arcticimmigration/"><i class="fab fab fa-facebook-f"></i></a></li>
                         <li><a target="_blank" href="https://www.youtube.com/@ArcticImmigration"><i class="fab fab fa-youtube"></i></a></li>
+                        <li><a target="_blank" href="https://www.tiktok.com/@arcticimmigration"><i class='fab fa-tiktok'></i></a></li>
+
                             </ul>
                         </div>
                     </div>

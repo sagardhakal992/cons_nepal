@@ -27,6 +27,7 @@
 <link href="{{ asset('assets/css/responsive.css') }}" rel="stylesheet">
 <link href="{{asset('assets/css/service.css')}}" rel="stylesheet">
 <link href="{{asset('assets/css/blog.css')}}" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.4/dist/sweetalert2.min.css">
 <style>
     tr,td,th{
         border: 1px solid gray;
@@ -96,7 +97,50 @@
         </button>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.4/dist/sweetalert2.all.min.js"></script>
+    <script>
+      function openBookingModal() {
+        Swal.fire({
+          html: document.getElementById('bookingModal').innerHTML,
+          showCancelButton: true,
+          showConfirmButton: true,
+          confirmButtonText: 'Submit',
+          cancelButtonText: 'Close',
+          didOpen: () => {
+        // Retrieve previous form data (if available)
+        var previousFormData = getPreviousFormData();
 
+        // Populate form fields with previous values
+        document.getElementById('name').value = previousFormData.name;
+        document.getElementById('email').value = previousFormData.email;
+        document.getElementById('subject').value = previousFormData.subject;
+        document.getElementById('description').value = previousFormData.description;
+        document.getElementById('meetingDate').value = previousFormData.meetingDate;
+      },
+          preConfirm: function () {
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var subject = document.getElementById('subject').value;
+            var description = document.getElementById('description').value;
+            var meetingDate = document.getElementById('meetingDate').value;
+            meetingDate=getFormattedDateTime(meetingDate);
+            console.log({name:document.getElementById('name')})
+          }
+        });
+      }
+
+      function getFormattedDateTime(dateTimeString) {
+    var dateTime = new Date(dateTimeString);
+    var year = dateTime.getFullYear();
+    var month = ("0" + (dateTime.getMonth() + 1)).slice(-2);
+    var day = ("0" + dateTime.getDate()).slice(-2);
+    var hours = ("0" + dateTime.getHours()).slice(-2);
+    var minutes = ("0" + dateTime.getMinutes()).slice(-2);
+    var ampm = hours >= 12 ? 'PM' : 'AM';
+
+    return year + "-" + month + "-" + day + " " + hours + ":" + minutes + " " + ampm;
+  }
+    </script>
     <!-- jequery plugins -->
     <script src="{{ asset('assets/js/jquery.js') }}"></script>
     <script src="{{ asset('assets/js/popper.min.js') }}"></script>
@@ -110,6 +154,7 @@
 
     <!-- main-js -->
     <script src="{{ asset('assets/js/script.js') }}"></script>
+
     @yield("js")
 </body><!-- End of .page_wrapper -->
 </html>

@@ -42,6 +42,22 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 team-block">
                         <div class="team-block-one">
                             <div class="inner-box p_relative d_block centred">
+                                <figure class="image-box p_relative d_block"><img style="height: 360px" src="{{asset('assets/images/raju.jpg')}}" alt=""></figure>
+                                <div class="lower-content p_relative d_block pt_25">
+                                    <h3 class="d_block fs_22 lh_30"><a href="team-details.html" class="d_iblock black-color hov-color">Raju Poudel</a></h3>
+                                    <span class="designation d_block fs_16 fw_medium"> Managing Director</span>
+                                </div>
+                                <div class="overlay-content bg-white b_shadow_6 z_1 pt_25 pb_30 pl_15 pr_15 tran_5">
+                                    <h3 class="d_block fs_22 lh_30"><p  class="d_iblock black-color hov-color">Raju Poudel</p></h3>
+                                    <span class="designation d_block fs_16 fw_medium mb_18">Managing Director</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 team-block">
+                        <div class="team-block-one">
+                            <div class="inner-box p_relative d_block centred">
                                 <figure class="image-box p_relative d_block"><img src="{{asset('assets/images/team/ram.png')}}" alt=""></figure>
                                 <div class="lower-content p_relative d_block pt_25">
                                     <h3 class="d_block fs_22 lh_30"><a href="team-details.html" class="d_iblock black-color hov-color">Ram Kumar Adhikari</a></h3>
@@ -61,16 +77,16 @@
                                 <figure class="image-box p_relative d_block"><img src="{{asset('assets/images/team/nirmal.jpg')}}" alt=""></figure>
                                 <div class="lower-content p_relative d_block pt_25">
                                     <h3 class="d_block fs_22 lh_30"><a href="team-details.html" class="d_iblock black-color hov-color">Nirmal Adhikari</a></h3>
-                                    <span class="designation d_block fs_16 fw_medium">Consultant</span>
+                                    <span class="designation d_block fs_16 fw_medium">Chief Consultant</span>
                                 </div>
                                 <div class="overlay-content bg-white b_shadow_6 z_1 pt_25 pb_30 pl_15 pr_15 tran_5">
                                     <h3 class="d_block fs_22 lh_30"><p  class="d_iblock black-color hov-color">Nirmal Adhikari</p></h3>
-                                    <span class="designation d_block fs_16 fw_medium mb_18">Consultant</span>
+                                    <span class="designation d_block fs_16 fw_medium mb_18">Chief Consultant</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-
+                    
                 </div>
                 <h1>Staffs</h1>
                 <div class="row clearfix">

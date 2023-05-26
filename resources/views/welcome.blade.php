@@ -9,7 +9,7 @@
                     <div class="auto-container">
                         <div class="content-box p_relative d_block z_5">
                             <h3 class="p_relative d_iblock fw_normal fs_24 lh_30 color-white pb_3 mb_25">Easy & Fast Visa Process</h3>
-                            <h1 class="color-white d_block fs_85 lh_90 mb_45 fw_exbold">Immigration & <br />visa consultation</h1>
+                            <h1 class="color-white d_block fs_85 lh_90 mb_45 fw_exbold">Study & Work <br />In Canada</h1>
                             <div class="btn-box clearfix">
                                 <a href="{{route('about')}}" class="theme-btn btn-one">discover more</a>
                             </div>
@@ -21,7 +21,7 @@
                     <div class="auto-container">
                         <div class="content-box p_relative d_block z_5">
                             <h3 class="p_relative d_iblock fw_normal fs_24 lh_30 color-white pb_3 mb_25">Easy & Fast Visa Process</h3>
-                            <h1 class="color-white d_block fs_85 lh_90 mb_45 fw_exbold">Apply for a <br /> Quick Immigration</h1>
+                            <h1 class="color-white d_block fs_85 lh_90 mb_45 fw_exbold">Meet Experts For  <br /> Appropriate Guideline</h1>
                             <div class="btn-box clearfix">
                                 <a href="{{route('about')}}" class="theme-btn btn-one">discover more</a>
                             </div>
@@ -33,7 +33,7 @@
                     <div class="auto-container">
                         <div class="content-box p_relative d_block z_5">
                             <h3 class="p_relative d_iblock fw_normal fs_24 lh_30 color-white pb_3 mb_25">Easy & Fast Visa Process</h3>
-                            <h1 class="color-white d_block fs_85 lh_90 mb_45 fw_exbold">Providing Value <br /> for Visa Categories</h1>
+                            <h1 class="color-white d_block fs_85 lh_90 mb_45 fw_exbold">Choose Best College , Course & Intake </h1>
                             <div class="btn-box clearfix">
                                 <a href="{{route('about')}}" class="theme-btn btn-one">discover more</a>
                             </div>

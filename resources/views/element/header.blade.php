@@ -17,7 +17,32 @@
                         <li><a target="_blank" href="https://www.youtube.com/@ArcticImmigration"><i class="fab fab fa-youtube"></i></a></li>
                         {{-- <li><a href="{{route('home')}}"><i class="fab fab fa-instagram"></i></a></li> --}}
                     </ul>
-                    <div class="btn-box"><a href="{{route('home')}}">Book Appointment</a></div>
+                    <div class="btn-box"><a  onclick="openBookingModal()">Book Appointment</a></div>
+                    <div id="bookingModal" style="display: none;">
+                        <h5>Booking Time Form</h5>
+                        <form action="{{route('sendBookingTime')}}" method="POST">
+                          <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                          </div>
+                          <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                          </div>
+                          <div class="form-group">
+                            <label for="subject">Subject:</label>
+                            <input type="text" class="form-control" id="subject" name="subject" required>
+                          </div>
+                          <div class="form-group">
+                            <label for="description">Description:</label>
+                            <textarea class="form-control" id="description" name="description" rows="4" required></textarea>
+                          </div>
+                          <div class="form-group">
+                            <label for="meetingDate">Meeting Time:</label>
+                            <input type="datetime-local" class="form-control" id="meetingDate" name="meetingDate" required>
+                          </div>
+                        </form>
+                      </div>
                 </div>
             </div>
         </div>

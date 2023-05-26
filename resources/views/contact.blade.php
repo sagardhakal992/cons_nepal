@@ -64,8 +64,8 @@
                                 <span class="d_block fs_14 lh_20 fw_medium color-white">Call now</span>
                                 <h5 class="d_block fs_18 lh_30 fw_medium color-white"><a href="tel:014597063" class="d_iblock color-white">014597063,014583238</a></h5>
                             </div>
-                            <div class="inner p_relative d_block pt_45 pr_30 pb_50 pl_50">
-                                <ul class="info-list clearfix p_relative d_block mb_30">
+                            <div class="inner p_relative d_block pt_5 pr_20 pb_5 pl_20">
+                                <ul class="info-list clearfix p_relative d_block mb_15">
                                     <li><a href="mailto:arcticnepal@gmail.com">arcticnepal@gmail.com</a></li>
                                     <li>Battisputali,kathmandu 44600,Nepal</li>
                                 </ul>

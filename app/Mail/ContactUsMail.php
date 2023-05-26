@@ -16,7 +16,7 @@ class ContactUsMail extends Mailable
     /**
      * Create a new message instance.
      */
-    public function __construct(public array $data)
+    public function __construct(public array $data,public string $type="contact")
     {
         //
     }
@@ -26,6 +26,11 @@ class ContactUsMail extends Mailable
      */
     public function envelope(): Envelope
     {
+        if($this->type=="booking"){
+            return new Envelope(
+                subject: 'Booking Mail',
+            );
+        }
         return new Envelope(
             subject: 'Contact Us Mail',
         );

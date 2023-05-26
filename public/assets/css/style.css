@@ -1998,3 +1998,13 @@
 .footer-logo{
   max-width: 143px;
 }
+
+p,h3,h4,h5,li,span,strong{
+  color: #000;
+  text-align: justify;
+}
+li{
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+}
