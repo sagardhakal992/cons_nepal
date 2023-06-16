@@ -11,7 +11,7 @@ class BookingRequest extends FormRequest
      */
     public function authorize(): bool
     {
-        return false;
+        return true;
     }
 
     /**
@@ -22,7 +22,10 @@ class BookingRequest extends FormRequest
     public function rules(): array
     {
         return [
-            //
+            "name"=>"required|string",
+            "email"=>"required|email",
+            "subject"=>"required|string",
+            "meetingDate"=>"required|string"
         ];
     }
 }

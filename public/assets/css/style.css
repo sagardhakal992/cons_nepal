@@ -2008,3 +2008,7 @@ li{
   font-weight: 500;
   color: black;
 }
+
+.open{
+  display: none;
+}

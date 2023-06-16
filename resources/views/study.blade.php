@@ -1,7 +1,7 @@
 @extends("layout")
 @section("content")
 @include("element.mobile-view")
-<section class="page-title p_relative" style="background-image: url({{asset('assets/images/background/pageslife.jpg')}})">
+<section class="page-title p_relative" style="background-image: url(assets/images/background/title.jpg);background-size:contain">
     <div class="auto-container">
         <div class="content-box p_relative pt_170 pb_170">
             <h1 class="d_block fs_40 lh_50 color_white fw_exbold color-white">Study In Canada</h1>

@@ -21,9 +21,9 @@ class ContactController extends Controller
         }
     }
 
-    public function sendBookingTime(BookingRequest $bookingRequest){
+    public function sendBookingTime(Request $bookingRequest){
         try{
-            $validatedData = $bookingRequest->validated();
+            return $bookingRequest->all();
             Mail::to("arcticnepal@gmail.com")->send(new ContactUsMail($validatedData,$type="booking"));
             return redirect()->route('home');
         }catch(Exception $e){

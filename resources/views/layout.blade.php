@@ -124,7 +124,29 @@
             var description = document.getElementById('description').value;
             var meetingDate = document.getElementById('meetingDate').value;
             meetingDate=getFormattedDateTime(meetingDate);
-            console.log({name:document.getElementById('name')})
+            var data = {
+                name: name,
+                email: email,
+                subject: subject,
+                description: description,
+                meetingDate: meetingDate
+                };
+
+                fetch('/api/booking/', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+                })
+                .then(response => response.json())
+                .then(result => {
+                    Swal.fire('Success', 'Booking submitted successfully!', 'success');
+                })
+                .catch(error => {
+                // Handle any errors
+                console.error('Error:', error);
+                });
           }
         });
       }
