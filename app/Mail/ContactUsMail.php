@@ -41,6 +41,11 @@ class ContactUsMail extends Mailable
      */
     public function content(): Content
     {
+        if($this->type=="booking"){
+            return new Content(
+                view: 'mail.booking',
+            );
+        }
         return new Content(
             view: 'mail.contactus',
         );

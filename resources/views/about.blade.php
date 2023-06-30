@@ -84,7 +84,7 @@
         <!-- about-style-three end -->
 
 
-        <!-- testimonial-section -->
+        {{-- <!-- testimonial-section -->
         <section class="testimonial-section p_relative pt_110 pb_100 bg-color-2">
             <div class="pattern-layer p_absolute l_0 t_0" style="background-image: url(assets/images/shape/shape-3.png);"></div>
             <div class="auto-container">
@@ -273,6 +273,203 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+        <!-- testimonial-section end --> --}}
+         <!-- testimonial-section -->
+         <section class="testimonial-section p_relative pt_110 pb_100 bg-color-2">
+            <div class="pattern-layer p_absolute l_0 t_0" style="background-image: url(assets/images/shape/shape-3.png);"></div>
+            <div class="auto-container">
+                <div class="sec-title p_relative d_block mb_50 centred">
+                    <span class="p_relative d_block fs_14 lh_20 fw_sbold theme-color mb_7">how we can help</span>
+                    <h2 class="p_relative d_block lh_55 fw_exbold">What They’re Saying</h2>
+                </div>
+                <div class="three-item-carousel owl-carousel owl-theme owl-nav-none">
+                    <div class="testimonial-block-one">
+                        <div class="inner-box p_relative d_block bg-white pt_50 pr_40 pb_50 pl_50 b_radius_10">
+                            <div class="quote"><span>“</span></div>
+                            <ul class="rating clearfix p_relative d_block mb_15">
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                            </ul>
+                            <div class="text p_relative d_block mb_20">
+                                <p>Thanks to your consultancy, I got accepted into a top Canadian university. Your guidance throughout the application process was invaluable. Highly recommend!</p>
+                            </div>
+                            <div class="author-box p_relative d_block pl_100 pt_13 pb_14">
+                                {{-- <figure class="author-thumb p_absolute l_0 t_0 b_radius_50"><img src="assets/images/resource/testimonial-1.jpg" alt=""></figure> --}}
+                                <h5 class="d_block fs_18 lh_30 theme-color">Prakash Bhandari</h5>
+                                <span class="designation d_block fs_14 lh_20 fw_medium">Student</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-block-one">
+                        <div class="inner-box p_relative d_block bg-white pt_50 pr_40 pb_50 pl_50 b_radius_10">
+                            <div class="quote"><span>“</span></div>
+                            <ul class="rating clearfix p_relative d_block mb_15">
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                            </ul>
+                            <div class="text p_relative d_block mb_20">
+                                <p>
+                                    Your consultancy's personalized approach made my dream of studying in Canada a reality. From course selection to visa support, you went above and beyond. Thank you!
+                                </p>
+                            </div>
+                            <div class="author-box p_relative d_block pl_100 pt_13 pb_14">
+                                {{-- <figure class="author-thumb p_absolute l_0 t_0 b_radius_50"><img src="assets/images/resource/testimonial-2.jpg" alt=""></figure> --}}
+                                <h5 class="d_block fs_18 lh_30 theme-color">Alisha Tamang</h5>
+                                <span class="designation d_block fs_14 lh_20 fw_medium">Student</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-block-one">
+                        <div class="inner-box p_relative d_block bg-white pt_50 pr_40 pb_50 pl_50 b_radius_10">
+                            <div class="quote"><span>“</span></div>
+                            <ul class="rating clearfix p_relative d_block mb_15">
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                            </ul>
+                            <div class="text p_relative d_block mb_20">
+                                <p>I can't thank your consultancy enough for helping me secure a Canadian student visa. Your expertise and attention to detail made the process seamless. Grateful!</p>
+                            </div>
+                            <div class="author-box p_relative d_block pl_100 pt_13 pb_14">
+                                {{-- <figure class="author-thumb p_absolute l_0 t_0 b_radius_50"><img src="assets/images/resource/testimonial-3.jpg" alt=""></figure> --}}
+                                <h5 class="d_block fs_18 lh_30 theme-color">Maya Gurung</h5>
+                                <span class="designation d_block fs_14 lh_20 fw_medium">Student</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-block-one">
+                        <div class="inner-box p_relative d_block bg-white pt_50 pr_40 pb_50 pl_50 b_radius_10">
+                            <div class="quote"><span>“</span></div>
+                            <ul class="rating clearfix p_relative d_block mb_15">
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                            </ul>
+                            <div class="text p_relative d_block mb_20">
+                                <p>Your consultancy's extensive knowledge of Canadian universities and programs helped me find the perfect fit for my academic goals. I'm thrilled to be studying in Canada!</p>
+                            </div>
+                            <div class="author-box p_relative d_block pl_100 pt_13 pb_14">
+                                {{-- <figure class="author-thumb p_absolute l_0 t_0 b_radius_50"><img src="assets/images/resource/testimonial-1.jpg" alt=""></figure> --}}
+                                <h5 class="d_block fs_18 lh_30 theme-color">Suresh Thapa</h5>
+                                <span class="designation d_block fs_14 lh_20 fw_medium">Student</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-block-one">
+                        <div class="inner-box p_relative d_block bg-white pt_50 pr_40 pb_50 pl_50 b_radius_10">
+                            <div class="quote"><span>“</span></div>
+                            <ul class="rating clearfix p_relative d_block mb_15">
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                            </ul>
+                            <div class="text p_relative d_block mb_20">
+                                <p>
+                                    Your consultancy played a crucial role in making my study abroad journey to Canada smooth and stress-free. I'm grateful for your support and guidance. Highly recommended!
+                                </p>
+                            </div>
+                            <div class="author-box p_relative d_block pl_100 pt_13 pb_14">
+                                {{-- <figure class="author-thumb p_absolute l_0 t_0 b_radius_50"><img src="assets/images/resource/testimonial-2.jpg" alt=""></figure> --}}
+                                <h5 class="d_block fs_18 lh_30 theme-color">Rajesh Sharma</h5>
+                                <span class="designation d_block fs_14 lh_20 fw_medium">Student</span>
+                            </div>
+                        </div>
+                    </div>
+                    {{-- <div class="testimonial-block-one">
+                        <div class="inner-box p_relative d_block bg-white pt_50 pr_40 pb_50 pl_50 b_radius_10">
+                            <div class="quote"><span>“</span></div>
+                            <ul class="rating clearfix p_relative d_block mb_15">
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                            </ul>
+                            <div class="text p_relative d_block mb_20">
+                                <p>Lorem ipsum is simply free text dolor sit amet, consecte notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore aliqua.</p>
+                            </div>
+                            <div class="author-box p_relative d_block pl_100 pt_13 pb_14">
+                                <figure class="author-thumb p_absolute l_0 t_0 b_radius_50"><img src="assets/images/resource/testimonial-3.jpg" alt=""></figure>
+                                <h5 class="d_block fs_18 lh_30 theme-color">Mike Hardson</h5>
+                                <span class="designation d_block fs_14 lh_20 fw_medium">Founder</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-block-one">
+                        <div class="inner-box p_relative d_block bg-white pt_50 pr_40 pb_50 pl_50 b_radius_10">
+                            <div class="quote"><span>“</span></div>
+                            <ul class="rating clearfix p_relative d_block mb_15">
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                            </ul>
+                            <div class="text p_relative d_block mb_20">
+                                <p>Lorem ipsum is simply free text dolor sit amet, consecte notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore aliqua.</p>
+                            </div>
+                            <div class="author-box p_relative d_block pl_100 pt_13 pb_14">
+                                <figure class="author-thumb p_absolute l_0 t_0 b_radius_50"><img src="assets/images/resource/testimonial-1.jpg" alt=""></figure>
+                                <h5 class="d_block fs_18 lh_30 theme-color">Kevin Martin</h5>
+                                <span class="designation d_block fs_14 lh_20 fw_medium">Student</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-block-one">
+                        <div class="inner-box p_relative d_block bg-white pt_50 pr_40 pb_50 pl_50 b_radius_10">
+                            <div class="quote"><span>“</span></div>
+                            <ul class="rating clearfix p_relative d_block mb_15">
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                            </ul>
+                            <div class="text p_relative d_block mb_20">
+                                <p>Lorem ipsum is simply free text dolor sit amet, consecte notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore aliqua.</p>
+                            </div>
+                            <div class="author-box p_relative d_block pl_100 pt_13 pb_14">
+                                <figure class="author-thumb p_absolute l_0 t_0 b_radius_50"><img src="assets/images/resource/testimonial-2.jpg" alt=""></figure>
+                                <h5 class="d_block fs_18 lh_30 theme-color">Sarah Albert</h5>
+                                <span class="designation d_block fs_14 lh_20 fw_medium">Manager</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-block-one">
+                        <div class="inner-box p_relative d_block bg-white pt_50 pr_40 pb_50 pl_50 b_radius_10">
+                            <div class="quote"><span>“</span></div>
+                            <ul class="rating clearfix p_relative d_block mb_15">
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                                <li class="p_relative d_iblock pull-left fs_13 lh_20 mr_3"><i class="fa fa-star"></i></li>
+                            </ul>
+                            <div class="text p_relative d_block mb_20">
+                                <p>Lorem ipsum is simply free text dolor sit amet, consecte notted adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore aliqua.</p>
+                            </div>
+                            <div class="author-box p_relative d_block pl_100 pt_13 pb_14">
+                                <figure class="author-thumb p_absolute l_0 t_0 b_radius_50"><img src="assets/images/resource/testimonial-3.jpg" alt=""></figure>
+                                <h5 class="d_block fs_18 lh_30 theme-color">Mike Hardson</h5>
+                                <span class="designation d_block fs_14 lh_20 fw_medium">Founder</span>
+                            </div>
+                        </div>
+                    </div> --}}
                 </div>
             </div>
         </section>
@@ -547,7 +744,7 @@
                         <h2 class="d_block fw_exbold color-white">Are you Looking for Visa <br />Consultation?</h2>
                     </div>
                     <div class="btn-box pull-right mt_5">
-                        <a href="index.html" class="theme-btn">book appointment</a>
+                        <a onclick="openBookingModal()" class="theme-btn">book appointment</a>
                     </div>
                 </div>
             </div>

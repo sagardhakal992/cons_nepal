@@ -531,7 +531,7 @@
         <!-- cta-section end -->
 
 
-        <!-- news-section -->
+        {{-- <!-- news-section -->
         <section class="news-section p_relative sec-pad">
             <div class="bg-layer p_absolute l_0 t_0 bg-color-2"></div>
             <div class="auto-container">
@@ -631,5 +631,7 @@
                 </div>
             </div>
         </section>
-        <!-- clients-section end -->
+        <!-- clients-section end --> --}}
+        <section class="news-section p_relative sec-pad">
+        </section>
 @endsection

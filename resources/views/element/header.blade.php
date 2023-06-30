@@ -20,7 +20,7 @@
                     <div class="btn-box"><a  onclick="openBookingModal()">Book Appointment</a></div>
                     <div id="bookingModal" style="display: none;">
                         <h5>Booking Time Form</h5>
-                        <form action="{{route('sendBookingTime')}}" method="POST">
+                        <form  action="{{route('sendBookingTime')}}" method="POST">
                           <div class="form-group">
                             <label for="name">Name:</label>
                             <input type="text" class="form-control" id="name" name="name" required>
@@ -41,6 +41,8 @@
                             <label for="meetingDate">Meeting Time:</label>
                             <input type="datetime-local" class="form-control" id="meetingDate" name="meetingDate" required>
                           </div>
+                          @csrf
+                          <input class="btn btn-primary" type="submit" />
                         </form>
                       </div>
                 </div>
@@ -133,12 +135,12 @@
                                         {{-- <li><a href="{{route('agents-detail',"sdas")}}">Agents Details</a></li> --}}
                                     </ul>
                                 </li>
-                                <li class="dropdown"><a href="{{route('blog')}}">Blog</a>
+                                {{-- <li class="dropdown"><a href="{{route('blog')}}">Blog</a>
                                     <ul>
                                         <li><a href="{{route('blog')}}">Our Blog</a></li>
                                         <li><a href="{{route('blog-detail','safa')}}">Blog Details</a></li>
                                     </ul>
-                                </li>
+                                </li> --}}
                                 <li><a class="{{request()->routeIs('contact') ? 'current':''}}" href="{{route('contact')}}">Contact</a></li>
                             </ul>
                         </div>

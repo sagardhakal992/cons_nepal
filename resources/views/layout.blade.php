@@ -102,8 +102,8 @@
       function openBookingModal() {
         Swal.fire({
           html: document.getElementById('bookingModal').innerHTML,
-          showCancelButton: true,
-          showConfirmButton: true,
+          showCancelButton: false,
+          showConfirmButton: false,
           confirmButtonText: 'Submit',
           cancelButtonText: 'Close',
           didOpen: () => {
@@ -131,7 +131,7 @@
                 description: description,
                 meetingDate: meetingDate
                 };
-
+                console.log(data)
                 fetch('/api/booking/', {
                 method: 'POST',
                 headers: {
@@ -144,8 +144,7 @@
                     Swal.fire('Success', 'Booking submitted successfully!', 'success');
                 })
                 .catch(error => {
-                // Handle any errors
-                console.error('Error:', error);
+                    Swal.fire('Error', 'Booking Failed.Try Again Later.', 'error');
                 });
           }
         });

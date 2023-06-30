@@ -21,13 +21,13 @@ class ContactController extends Controller
         }
     }
 
-    public function sendBookingTime(Request $bookingRequest){
+    public function sendBookingTime(BookingRequest $bookingRequest){
         try{
-            return $bookingRequest->all();
+            $validatedData=$bookingRequest->validated();
             Mail::to("arcticnepal@gmail.com")->send(new ContactUsMail($validatedData,$type="booking"));
             return redirect()->route('home');
         }catch(Exception $e){
-            return redirect()->route('home');
+            dd($e->getMessage());
         }
     }
 }

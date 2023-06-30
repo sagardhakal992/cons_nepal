@@ -35,7 +35,7 @@
                                 <li><a href="index.html"><i class="fab fa-instagram"></i></a></li> --}}
                                 <li><a target="_blank" href="https://www.facebook.com/arcticimmigration/"><i class="fab fab fa-facebook-f"></i></a></li>
                         <li><a target="_blank" href="https://www.youtube.com/@ArcticImmigration"><i class="fab fab fa-youtube"></i></a></li>
-                        <li><a target="_blank" href="https://www.tiktok.com/@arcticimmigration"><i class='fab fa-tiktok'></i></a></li>
+                        <li><a target="_blank" href="https://www.tiktok.com/@arcticimmigration"><img src="https://cdn-icons-png.flaticon.com/128/11104/11104200.png" /></a></li>
 
                             </ul>
                         </div>

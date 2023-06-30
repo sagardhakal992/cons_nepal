@@ -30,7 +30,7 @@
 
 
 <!-- Page Title -->
-<section class="page-title p_relative" style="background-image: url(assets/images/background/page-title.jpg);">
+<section class="page-title p_relative" style="background-image: url(assets/images/shape/shape-1.png);">
     <div class="auto-container">
         <div class="content-box p_relative pt_170 pb_170">
             <h1 class="d_block fs_40 lh_50 color_white fw_exbold color-white">Our Services</h1>

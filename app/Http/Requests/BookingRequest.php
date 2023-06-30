@@ -3,6 +3,7 @@
 namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Http\Exceptions\HttpResponseException;
 
 class BookingRequest extends FormRequest
 {
@@ -25,7 +26,12 @@ class BookingRequest extends FormRequest
             "name"=>"required|string",
             "email"=>"required|email",
             "subject"=>"required|string",
+            "description"=>"required|string",
             "meetingDate"=>"required|string"
         ];
+    }
+
+    public function failedValidation(\Illuminate\Contracts\Validation\Validator $validator){
+        throw new  HttpResponseException(response()->json(["message"=>"something went wrong"],400));
     }
 }
