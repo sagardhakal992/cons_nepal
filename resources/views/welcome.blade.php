@@ -144,12 +144,12 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 service-block">
                             <div class="service-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div class="inner-box p_relative d_block b_radius_10">
-                                    <figure class="image-box p_relative d_block"><img src="assets/images/resource/service-1.jpg" alt=""></figure>
+                                    <figure class="image-box p_relative d_block"><img src="{{ asset('assets/images/background/consult.jpg') }}" alt=""></figure>
                                     <div class="lower-content p_relative d_block pt_25 pr_30 pb_30 pl_40">
                                         <div class="icon-box p_absolute r_20 w_100 h_100 lh_110 centred fs_65 bg-white theme-color b_radius_10 tran_5 z_2"><i class="flaticon-family"></i></div>
-                                        <h3 class="d_block fs_24 lh_30 mb_25"><a href="service-details-4.html" class="d_iblock black-color hov-color">Student Visa</a></h3>
-                                        <p class="mb_15">Sed quia magni dolores eos qui ratione voluptatem sequi nesciunt eque porro.</p>
-                                        <div class="link"><a href="service-details-4.html" class="p_relative d_iblock fs_14 fw_sbold black-color hov-color pl_12"><i class="fa fa-angle-right"></i>Read More</a></div>
+                                        <h3 class="d_block fs_24 lh_30 mb_25"><a href="{{ route('services.index') }}" class="d_iblock black-color hov-color">Student Visa</a></h3>
+                                        <p class="mb_15">Arctic Educational Consultancy is dedicated to providing Nepalese students with the best opportunities to study in Canada.</p>
+                                        <div class="link"><a href="{{ route('services.index') }}" class="p_relative d_iblock fs_14 fw_sbold black-color hov-color pl_12"><i class="fa fa-angle-right"></i>Read More</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -157,17 +157,17 @@
                         <div class="col-lg-4 col-md-6 col-sm-12 service-block">
                             <div class="service-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                 <div class="inner-box p_relative d_block b_radius_10">
-                                    <figure class="image-box p_relative d_block"><img src="assets/images/resource/service-2.jpg" alt=""></figure>
+                                    <figure class="image-box p_relative d_block"><img src="{{ asset('assets/images/background/work.jpg') }}" alt=""></figure>
                                     <div class="lower-content p_relative d_block pt_25 pr_30 pb_30 pl_40">
                                         <div class="icon-box p_absolute r_20 w_100 h_100 lh_110 centred fs_65 bg-white theme-color b_radius_10 tran_5 z_2"><i class="flaticon-work-from-home"></i></div>
-                                        <h3 class="d_block fs_24 lh_30 mb_25"><a href="service-details-3.html" class="d_iblock black-color hov-color">Work Visa</a></h3>
-                                        <p class="mb_15">Sed quia magni dolores eos qui ratione voluptatem sequi nesciunt eque porro.</p>
-                                        <div class="link"><a href="service-details-3.html" class="p_relative d_iblock fs_14 fw_sbold black-color hov-color pl_12"><i class="fa fa-angle-right"></i>Read More</a></div>
+                                        <h3 class="d_block fs_24 lh_30 mb_25"><a  class="d_iblock black-color hov-color">Work Visa</a></h3>
+                                        <p class="mb_15">Coming Soon..</p>
+                                        <div class="link"><a  class="p_relative d_iblock fs_14 fw_sbold black-color hov-color pl_12"><i class="fa fa-angle-right"></i>Read More</a></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 service-block">
+                        {{-- <div class="col-lg-4 col-md-6 col-sm-12 service-block">
                             <div class="service-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                                 <div class="inner-box p_relative d_block b_radius_10">
                                     <figure class="image-box p_relative d_block"><img src="assets/images/resource/service-3.jpg" alt=""></figure>
@@ -179,7 +179,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <div class="more-text centred">Visa & immigration services built specifically for you. <a href="{{route('services.index')}}" class="d_iblock fw_sbold theme-color">Find Your Solution</a></div>

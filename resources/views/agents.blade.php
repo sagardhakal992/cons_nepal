@@ -25,7 +25,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-12 team-block">
                         <div class="team-block-one">
                             <div class="inner-box p_relative d_block centred">
-                                <figure class="image-box p_relative d_block"><img src="assets/images/team/team-6.jpg" style="height: 360px" alt=""></figure>
+                                <figure class="image-box p_relative d_block"><img src="{{asset("assets/images/team/guru-sharma.jpg")}}" style="height: 360px" alt=""></figure>
                                 <div class="lower-content p_relative d_block pt_25">
                                     <h3 class="d_block fs_22 lh_30"><a href="team-details.html" class="d_iblock black-color hov-color">Guru Sharma</a></h3>
                                     <span class="designation d_block fs_16 fw_medium">Chair Person</span>
@@ -33,6 +33,23 @@
                                 <div class="overlay-content bg-white b_shadow_6 z_1 pt_25 pb_30 pl_15 pr_15 tran_5">
                                     <h3 class="d_block fs_22 lh_30"><p  class="d_iblock black-color hov-color">Guru Sharma</p></h3>
                                     <span class="designation d_block fs_16 fw_medium mb_18">Chair Person</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 team-block">
+                        <div class="team-block-one">
+                            <div class="inner-box p_relative d_block centred">
+                                <figure class="image-box p_relative d_block"><img src="{{asset("assets/images/team/binod.jpg")}}" style="height: 360px" alt=""></figure>
+                                <div class="lower-content p_relative d_block pt_25">
+                                    <h3 class="d_block fs_22 lh_30"><a href="team-details.html" class="d_iblock black-color hov-color">Binod Parajuli</a></h3>
+                                    <span class="designation d_block fs_16 fw_medium">Board of director</span>
+                                </div>
+                                <div class="overlay-content bg-white b_shadow_6 z_1 pt_25 pb_30 pl_15 pr_15 tran_5">
+                                    <h3 class="d_block fs_22 lh_30"><p  class="d_iblock black-color hov-color">Binod Parajuli</p></h3>
+                                    <span class="designation d_block fs_16 fw_medium mb_18">Board of director</span>
 
                                 </div>
                             </div>
@@ -88,64 +105,8 @@
                     </div>
                     
                 </div>
-                <h1>Staffs</h1>
-                <div class="row clearfix">
-
-                    <div class="col-lg-4 col-md-6 col-sm-12 team-block">
-                        <div class="team-block-one">
-                            <div class="inner-box p_relative d_block centred">
-                                <figure class="image-box p_relative d_block"><img src="assets/images/team/team-6.jpg" alt=""></figure>
-                                <div class="lower-content p_relative d_block pt_25">
-                                    <h3 class="d_block fs_22 lh_30"><a href="team-details.html" class="d_iblock black-color hov-color">Guru Sharma</a></h3>
-                                    <span class="designation d_block fs_16 fw_medium">Chair Person</span>
-                                </div>
-                                <div class="overlay-content bg-white b_shadow_6 z_1 pt_25 pb_30 pl_15 pr_15 tran_5">
-                                    <h3 class="d_block fs_22 lh_30"><p  class="d_iblock black-color hov-color">Guru Sharma</p></h3>
-                                    <span class="designation d_block fs_16 fw_medium mb_18">Chair Person</span>
-                                    {{-- <ul class="social-links clearfix">
-                                        <li><a href="team-details.html"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="team-details.html"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="team-details.html"><i class="fab fa-instagram"></i></a></li>
-                                        <li><a href="team-details.html"><i class="fab fa-dribbble"></i></a></li>
-                                    </ul> --}}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-12 team-block">
-                        <div class="team-block-one">
-                            <div class="inner-box p_relative d_block centred">
-                                <figure class="image-box p_relative d_block"><img src="{{asset('assets/images/team/ram.png')}}" alt=""></figure>
-                                <div class="lower-content p_relative d_block pt_25">
-                                    <h3 class="d_block fs_22 lh_30"><a href="team-details.html" class="d_iblock black-color hov-color">Ram Kumar Adhikari</a></h3>
-                                    <span class="designation d_block fs_16 fw_medium">RCIC consultant (Canada)</span>
-                                </div>
-                                <div class="overlay-content bg-white b_shadow_6 z_1 pt_25 pb_30 pl_15 pr_15 tran_5">
-                                    <h3 class="d_block fs_22 lh_30"><p  class="d_iblock black-color hov-color">Ram Kumar Adhikari</p></h3>
-                                    <span class="designation d_block fs_16 fw_medium mb_18">RCIC consultant (Canada)</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-12 team-block">
-                        <div class="team-block-one">
-                            <div class="inner-box p_relative d_block centred">
-                                <figure class="image-box p_relative d_block"><img src="{{asset('assets/images/team/nirmal.jpg')}}" alt=""></figure>
-                                <div class="lower-content p_relative d_block pt_25">
-                                    <h3 class="d_block fs_22 lh_30"><a href="team-details.html" class="d_iblock black-color hov-color">Nirmal Adhikari</a></h3>
-                                    <span class="designation d_block fs_16 fw_medium">Consultant</span>
-                                </div>
-                                <div class="overlay-content bg-white b_shadow_6 z_1 pt_25 pb_30 pl_15 pr_15 tran_5">
-                                    <h3 class="d_block fs_22 lh_30"><p  class="d_iblock black-color hov-color">Nirmal Adhikari</p></h3>
-                                    <span class="designation d_block fs_16 fw_medium mb_18">Consultant</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
+                
+                
             </div>
 </section>
 
